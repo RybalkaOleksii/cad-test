@@ -1,7 +1,8 @@
 ## Project Information
 
-* Project Name : 
+* Project Name : Катушка
 * Description :
-* Start Date : 
-* Current Stage : 
-* Engineers : 
+* Start Date :
+* Current Stage :
+* Engineers :
+
