@@ -1,10 +1,11 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-
-### SOLIDWORKS
-*.SLDASM filter=lfs diff=lfs merge=lfs -text
-*.SLDPRT filter=lfs diff=lfs merge=lfs -text
-*.SLDDRW filter=lfs diff=lfs merge=lfs -text
-*.sldasm filter=lfs diff=lfs merge=lfs -text
-*.sldprt filter=lfs diff=lfs merge=lfs -text
-*.slddrw filter=lfs diff=lfs merge=lfs -text
+*.SLDPRT filter=lfs diff=lfs merge=lfs -text lockable
+*.SLDASM filter=lfs diff=lfs merge=lfs -text lockable
+*.SLDDRW filter=lfs diff=lfs merge=lfs -text lockable
+*.sldprt filter=lfs diff=lfs merge=lfs -text lockable
+*.sldasm filter=lfs diff=lfs merge=lfs -text lockable
+*.slddrw filter=lfs diff=lfs merge=lfs -text lockable
+*.step filter=lfs diff=lfs merge=lfs -text
+*.stp filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.dxf filter=lfs diff=lfs merge=lfs -text
+*.xlsx filter=lfs diff=lfs merge=lfs -text
